@@ -91,26 +91,41 @@ $ ./compile.sh
 - libs/arm64-v8a for 64bit
 - libs/armeabi-v7a for 32bit
 
+_I assume you're using 64bit Android_
+
+After `compile.sh` script runs succesfully, lib file will generated on your working directory `libs/arm64-v8a` the filename is `libAkSoundEngine2.so`.
+
+Open [Zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) Copy that `libAkSoundEngine2.so` to mlbb folder: `Android/data/com.mobile.legends/files/dragon2017/assets/comlibs/arm64-v8a` then rename original **```libAkSoundEngine.bytes```** to **```libTMH.bytes```** also rename mod lib **`libAkSoundEngine2.so`** to **`libAkSoundEngine.bytes`** done TMH is installed succesfully!
+
+
 ## Download
 
-You can [download](https://github.com/anggorodhanumurti/themaphack/releases/tag/v1.1.2-64bit) the latest mod according to your android kernel version.
-- [stable-v1.1.2-64bit](https://github.com/anggorodhanumurti/themaphack/releases/tag/v1.1.2-64bit) for 64bit
-- [stable-v1.1.2-32bit](https://github.com/anggorodhanumurti/themaphack/releases/tag/v1.1.2-32bit) for 32bit
+There are 2 version of Virtual and External
+
+* **Virtual** version using apk virtualization methode and obfuscated code to ensure full control between modmenu and game client make it **`more secure and stable (no lag/crash)`** as a result we dont open source the code at this version
+  - Download Virtual version **[tmh_virtual_apk.nova.zip](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.2.2-virtual(64bit)/tmh_virtual_apk.nova.zip)**
+
+* **External** version is the outcome of compiling source code from this project in a form of `.so files` which is injected into mlbb folder. No obfuscated code so you can customize its feature and function to suit your needs easily
+  - Download External Version **[stable-v1.1.2-64bit](https://github.com/anggorodhanumurti/themaphack/releases/tag/v1.1.2-64bit)**
 
 ## Usage
 ### Installation & how to get key
 
-_I assume you're using 64bit Android_
+1. We recommend you to use [`TMH virtual`](https://github.com/anggorodhanumurti/themaphack/releases/tag/v1.2.2-virtual(64bit)) because it is safer and more stable than the external version. Here a [direct download](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.2.2-virtual(64bit)/tmh_virtual_apk.nova.zip) link
 
-1. [Download](https://github.com/anggorodhanumurti/themaphack/releases) latest 64bit TMH lib
+2. Extract **`tmh_virtual_apk.nova.zip`** and install **`NovaLauncher.apk`**
 
-2. Open [Zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) go to `Android/data/com.mobile.legends/files/dragon2017/assets/comlibs/arm64-v8a` rename original **```libAkSoundEngine.bytes```** to **```libTMH.bytes```**
+3. Open `Nova Launcher` click `Start` allow permission for `Nova Launcher` to manage all files
 
-3. Extract TMH lib that you've just downloaded to that mlbb folder using Zarchiver. Path to extract: `Android/data/com.mobile.legends/files/dragon2017/assets/comlibs/arm64-v8a`
+4. Add `mlbb` to `Nova Launcher` by Selecting `Mobile Legends` then click **`Clone`**. At this stage you've successfully installed modmenu but **dont open mlbb** before finishing the step bellow or your account will be banned for sure!
 
-4. You must have a key before login to modmenu. Get a key [here](https://t0pgamemurah.xyz/freeKey) after you got a key, just Copy the key! and save that key in your favorite android note app you will need that for login to modmenu.
+5. You must have a key to acces modmenu within `Nova Launcher`. Get a key [here](https://www.reddit.com/r/Themaphack/comments/1le5a5k/how_to_get_key_tmh_virtual_nova_launcher/) after you got a key, just Copy the key! and save that key in your android note app you will need that for login to modmenu.
 
-5. TMH is installed succesfully! but your account is still not safe from banned. So before you open mlbb game make sure you follow this [guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+6. TMH Virtual version is installed succesfully! but **your account is still not safe from banned**. So before you open mlbb game from `Nova Launcher` make sure you follow this [guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+
+7. After you complete step 6, now you're safe to play MLBB, open `Nova Launcher` start Mobile Legends, then when modmenu appear paste your `Key`, and click `Login` 
+
+> enjoy and outplay your enemy :smiling_imp:
 
 ## FAQ
 
