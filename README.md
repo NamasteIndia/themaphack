@@ -125,7 +125,7 @@ There are 2 version of `Themaphack` is a Virtual and External
 
 7. After you complete step 6, now you're safe to play MLBB, open `Nova Launcher` start Mobile Legends, then when modmenu appear paste your `Key`, and click `Login` 
 
-> enjoy and outplay your enemy :smiling_imp:
+> enjoy and outplay your enemy ;)
 
 ## FAQ
 
