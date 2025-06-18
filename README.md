@@ -43,7 +43,7 @@ You lost your acount without refund that suck! we dont want to overclaim but her
   - The modular design lets users extend the features of this mod to suit their specific needs.
 
 * **Account Safety**
-  -  To mitigate the risk of bans, a [special guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) is available to VIP users, aimed at avoiding detection.
+  -  To mitigate the risk of bans, a [special guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) is available to VIP users aimed at avoiding detection.
 
 ## Main Features
 
@@ -93,7 +93,7 @@ $ ./compile.sh
 
 _I assume you're using 64bit Android_
 
-After `compile.sh` script runs succesfully, lib file will generated on your working directory `libs/arm64-v8a` the filename is `libAkSoundEngine2.so`.
+After `compile.sh` script runs succesfully, lib file will generated on your working directory `libs/arm64-v8a` the filename is `libAkSoundEngine2.so`
 
 Open [Zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) Copy that `libAkSoundEngine2.so` to mlbb folder: `Android/data/com.mobile.legends/files/dragon2017/assets/comlibs/arm64-v8a` then rename original **```libAkSoundEngine.bytes```** to **```libTMH.bytes```** also rename mod lib **`libAkSoundEngine2.so`** to **`libAkSoundEngine.bytes`** done TMH is installed succesfully!
 
