@@ -100,7 +100,7 @@ Open [Zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchive
 
 ## Download
 
-There are 2 version of Virtual and External
+There are 2 version of `Themaphack` is a Virtual and External
 
 * **Virtual** version using apk virtualization methode and obfuscated code to ensure full control between modmenu and game client make it **`more secure and stable (no lag/crash)`** as a result we dont open source the code at this version
   - Download Virtual version **[tmh_virtual_apk.nova.zip](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.2.2-virtual(64bit)/tmh_virtual_apk.nova.zip)**
