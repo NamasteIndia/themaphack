@@ -119,7 +119,7 @@ There are 2 version of `Themaphack` is a Virtual and External
 
 4. Add `mlbb` to `Nova Launcher` by Selecting `Mobile Legends` then click **`Clone`**. At this stage you've successfully installed modmenu but **dont open mlbb** before finishing the step bellow or your account will be banned for sure!
 
-5. You must have a key to acces modmenu within `Nova Launcher`. Get a key [here](https://www.reddit.com/r/Themaphack/comments/1le5a5k/how_to_get_key_tmh_virtual_nova_launcher/) after you got a key, just Copy the key! and save that key in your android note app you will need that for login to modmenu.
+5. You must have a key to acces modmenu within `Nova Launcher`. Get a key [here](https://vimeo.com/1095182829/b14412f5f5) after you got a key, just Copy the key! and save that key in your android note app you will need that for login to modmenu.
 
 6. TMH Virtual version is installed succesfully! but **your account is still not safe from banned**. So before you open mlbb game from `Nova Launcher` make sure you follow this [guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 
