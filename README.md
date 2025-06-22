@@ -104,24 +104,24 @@ _I assume you're using 64bit Android_
 
 4. Rename **`libAkSoundEngine2.so`** to **`libAkSoundEngine.bytes`** done TMH is installed succesfully! but before open MLBB you must have a key for login to `TMH` modmenu. Generate key [here](https://t0pgamemurah.xyz/freeKey)
 
-> [!IMPORTANT]
-> make sure you follow [this guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) to avoid banned
+> [!WARNING]
+> Your account is still not safe from banned. So before you open mlbb game make sure you follow [this guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 
 ## Download
 
 There are 2 version of `Themaphack` is a Virtual and External
 
 * **Virtual** version using apk virtualization methode and obfuscated code to ensure full control between modmenu and game client make it **`more secure and stable (no lag/crash)`** as a result we dont open source the code at this version
-  - Download Virtual version **[tmh_virtual_apk.nova.zip](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.2.2-virtual(64bit)/tmh_virtual_apk.nova.zip)**
+  - Download **[Latest TMH Virtual Version](https://github.com/anggorodhanumurti/themaphack/releases/download/v2.0-virtual(allstar-64bit)/tmhv2.0_virtual_allstar_64bit.zip)**
 
 * **External** version is the outcome of compiling source code from this project in a form of `.so files` which is injected into mlbb folder. No obfuscated code so you can customize its feature and function to suit your needs easily
-  - Download External Version **[stable-v1.1.3-external-64bit](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.3-external-64bit/tmhv1.1.3-external-64bit.zip)**
-  - Read INSTALL.txt inside tmhv1.1.3-external-64bit.zip for install instruction
+  - Download External Version **[tmhv1.1.4-external-64bit.zip](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.4-external-64bit/tmhv1.1.4-external-64bit.zip)**
+  - Read INSTALL.txt inside tmhv1.1.4-external-64bit.zip for install instruction
 
 ## Usage
 ### Installation & how to get key
 
-1. We recommend you to use [`TMH virtual`](https://github.com/anggorodhanumurti/themaphack/releases/tag/v1.2.2-virtual(64bit)) because it is safer and more stable than the external version. Here a [direct download](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.2.2-virtual(64bit)/tmh_virtual_apk.nova.zip) link
+1. We recommend you to use [`TMH virtual`](https://github.com/anggorodhanumurti/themaphack/releases/tag/v2.0-virtual(allstar-64bit)) because it is safer and more stable than the external version. Here a [direct download](https://github.com/anggorodhanumurti/themaphack/releases/download/v2.0-virtual(allstar-64bit)/tmhv2.0_virtual_allstar_64bit.zip) link
 
 2. Extract **`tmh_virtual_apk.nova.zip`** and install **`NovaLauncher.apk`**
 
