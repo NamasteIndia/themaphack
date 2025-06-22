@@ -9,7 +9,7 @@
   </a>
   <a href="https://play.google.com/store/apps/details?id=com.mobile.legends"><img src="https://img.shields.io/badge/Game-Mobile_Legends-important?logo=youtubegaming" alt="Game - Mobile Legends">
   </a>
-  <a href="https://t0pgamemurah.xyz/freeKey"><img src="https://img.shields.io/badge/generate-key-blue?logo=keeweb&logoColor=fff" alt="generate - key">
+  <a href="https://vimeo.com/1095182829/b14412f5f5"><img src="https://img.shields.io/badge/generate-key-blue?logo=keeweb&logoColor=fff" alt="generate - key">
   </a>
   <a href="https://github.com/anggorodhanumurti/themaphack/releases/"><img src="https://img.shields.io/github/tag/anggorodhanumurti/themaphack?include_prereleases=&sort=semver&color=blue" alt="GitHub tag"></a>
   <a href="https://www.patreon.com/themaphack"><img src="https://img.shields.io/badge/Get-Latest_updates-ff69b4?logo=patreon" alt="Get - Latest updates"></a>
@@ -35,7 +35,7 @@ Remember when you paid for premium mod just for 30 days they claim it safe but e
 You lost your acount without refund that suck! we dont want to overclaim but here the best thing we can give:
 
 * Free forever
-  - You can generate free key (unlimited) in our [website](https://t0pgamemurah.xyz/freeKey).
+  - You can generate free key (unlimited) in our website.
   
 * Open source, Transparency & Modular
   - Feel free to use this source code as a template for your mod menu project
@@ -91,12 +91,21 @@ $ ./compile.sh
 - libs/arm64-v8a for 64bit
 - libs/armeabi-v7a for 32bit
 
+### Installation for External version
+
 _I assume you're using 64bit Android_
 
-After `compile.sh` script runs succesfully, lib file will generated on your working directory `libs/arm64-v8a` the filename is `libAkSoundEngine2.so`
+1. After `compile.sh` script runs succesfully, lib file will generated on your working directory `libs/arm64-v8a` the filename is `libAkSoundEngine2.so`
 
-Open [Zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) Copy that `libAkSoundEngine2.so` to mlbb folder: `Android/data/com.mobile.legends/files/dragon2017/assets/comlibs/arm64-v8a` then rename original **```libAkSoundEngine.bytes```** to **```libTMH.bytes```** also rename mod lib **`libAkSoundEngine2.so`** to **`libAkSoundEngine.bytes`** done TMH is installed succesfully!
+2. Open [Zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) Copy that `libAkSoundEngine2.so` to mlbb folder:
+`Android/data/com.mobile.legends/files/dragon2017/assets/comlibs/arm64-v8a`
 
+3. Rename original lib from mlbb **```libAkSoundEngine.bytes```** to **```libTMH.bytes```**
+
+4. Rename **`libAkSoundEngine2.so`** to **`libAkSoundEngine.bytes`** done TMH is installed succesfully! but before open MlBB you must have a key for login to `TMH` modmenu. Generate key [here](https://t0pgamemurah.xyz/freeKey)
+
+> [!IMPORTANT]
+> make sure you follow [this guode](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) to avoid banned
 
 ## Download
 
@@ -106,7 +115,8 @@ There are 2 version of `Themaphack` is a Virtual and External
   - Download Virtual version **[tmh_virtual_apk.nova.zip](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.2.2-virtual(64bit)/tmh_virtual_apk.nova.zip)**
 
 * **External** version is the outcome of compiling source code from this project in a form of `.so files` which is injected into mlbb folder. No obfuscated code so you can customize its feature and function to suit your needs easily
-  - Download External Version **[stable-v1.1.2-64bit](https://github.com/anggorodhanumurti/themaphack/releases/tag/v1.1.2-64bit)**
+  - Download External Version **[stable-v1.1.3-external-64bit](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.3-external-64bit/tmhv1.1.3-external-64bit.zip)**
+  - Read INSTALL.txt inside tmhv1.1.3-external-64bit.zip for install instruction
 
 ## Usage
 ### Installation & how to get key
