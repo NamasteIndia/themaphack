@@ -3,7 +3,7 @@
   <a href="http://https://github.com/anggorodhanumurti/themaphack/"><img src="https://raw.githubusercontent.com/anggorodhanumurti/themaphack/refs/heads/main/images/tmh-logo.png" alt="tmh" width="200"></a>
   Themaphack.
 </h1>
-<h3 align="center"> Mod menu like no others</h3>
+<h3 align="center"> Outplay your Enemy</h3>
 <p align="center">
   <a href="https://whatismyandroidversion.com/"><img src="https://img.shields.io/badge/Android-10--14+-brightgreen?logo=android" alt="Android - 10-14+">
   </a>
