@@ -123,11 +123,11 @@ There are 2 version of `Themaphack` is a Virtual and External
 
 1. We recommend you to use [`TMH virtual`](https://github.com/anggorodhanumurti/themaphack/releases/tag/v2.0-virtual(allstar-64bit)) because it is safer and more stable than the external version. Here a [direct download](https://github.com/anggorodhanumurti/themaphack/releases/download/v2.0-virtual(allstar-64bit)/tmhv2.0_virtual_allstar_64bit.zip) link
 
-2. Extract **`tmh_virtual_apk.nova.zip`** and install **`NovaLauncher.apk`**
+2. Extract **`tmhv2.0_virtual_allstar_64bit.zip`** and install **`NovaLauncher_patch_allstar.apk`**
 
 3. Open `Nova Launcher` click `Start` allow permission for `Nova Launcher` to manage all files
 
-4. Add `mlbb` to `Nova Launcher` by Selecting `Mobile Legends` then click **`Clone`**. At this stage you've successfully installed modmenu but **dont open mlbb** before finishing the step bellow or your account will be banned for sure!
+4. Makesure you have a latest mlbb from playstore and downloaded all data 100% then add `mlbb` to `Nova Launcher` by Selecting `Mobile Legends` then click **`Clone`**. At this stage you've successfully installed modmenu but **dont open mlbb** before finishing the step bellow or your account will be banned for sure!
 
 5. You must have a key to acces modmenu within `Nova Launcher`. Get a key [here](https://vimeo.com/1095182829/b14412f5f5) after you got a key, just Copy the key! and save that key in your android note app you will need that for login to modmenu.
 
