@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <a href="http://https://github.com/anggorodhanumurti/themaphack/"><img src="https://raw.githubusercontent.com/anggorodhanumurti/themaphack/refs/heads/main/images/tmh-logo.png" alt="tmh" width="200"></a>
-  <br>Themaphack.</br>
+  <br>Themaphack</br>
 </h1>
 <h3 align="center"> Outplay your Enemy</h3>
 <p align="center">
