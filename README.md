@@ -45,9 +45,6 @@ Our key advantage compared to others mod:
 * **Account Safety**
   -  To mitigate the risk of bans, a [special guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) is available to VIP users aimed at avoiding detection.
 
-> [!NOTE]
-> Open [issue](https://github.com/anggorodhanumurti/themaphack/issues) for feature requests, feedback and troubleshooting
-
 ## Main Features
 
 ![screenshot](https://raw.githubusercontent.com/anggorodhanumurti/themaphack/refs/heads/main/images/complete-esp.gif)
@@ -184,6 +181,9 @@ Considering that TMH source code is not obfuscated, it will be so easy for antic
 Absolutely yes, <a href="https://www.patreon.com/c/themaphack/membership?">Download here</a>
 </p>
 </details>
+
+> [!NOTE]
+> Open [issue](https://github.com/anggorodhanumurti/themaphack/issues) for feature requests, feedback and troubleshooting
 
 ## Support
 
