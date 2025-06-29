@@ -28,11 +28,11 @@
 
 ## Key Advantage
 
-The fact that there is no 100% cheats that safe from being banned.
+Themaphack offers a unique mod menu for Mobile Legends, featuring Maphack and ESP designed with user stability in mind. 
 
-Remember when you paid for premium mod just for 30 days they claim it safe but end up getting banned for 30 years (even when the usage duration not yet over).
+With the ability to generate free keys endlessly and an open-source code for customization, this tool prioritizes user safety while allowing features to be extended according to specific needs.
 
-You lost your acount without refund that suck! we dont want to overclaim but here the best thing we can give:
+Our key advantage compared to others mod:
 
 * Free forever
   - You can generate free key (unlimited) in our website.
@@ -44,6 +44,9 @@ You lost your acount without refund that suck! we dont want to overclaim but her
 
 * **Account Safety**
   -  To mitigate the risk of bans, a [special guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) is available to VIP users aimed at avoiding detection.
+
+> [!NOTE]
+> Open [issue](https://github.com/anggorodhanumurti/themaphack/issues) for feature requests, feedback and troubleshooting
 
 ## Main Features
 
