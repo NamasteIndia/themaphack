@@ -9,7 +9,7 @@
   </a>
   <a href="https://play.google.com/store/apps/details?id=com.mobile.legends"><img src="https://img.shields.io/badge/Game-Mobile_Legends-important?logo=youtubegaming" alt="Game - Mobile Legends">
   </a>
-  <a href="https://vimeo.com/1095182829/b14412f5f5"><img src="https://img.shields.io/badge/generate-key-blue?logo=keeweb&logoColor=fff" alt="generate - key">
+  <a href="https://t0pgamemurah.xyz/freeKey"><img src="https://img.shields.io/badge/generate-key-blue?logo=keeweb&logoColor=fff" alt="generate - key">
   </a>
   <a href="https://github.com/anggorodhanumurti/themaphack/releases/"><img src="https://img.shields.io/github/tag/anggorodhanumurti/themaphack?include_prereleases=&sort=semver&color=blue" alt="GitHub tag"></a>
   <a href="https://www.patreon.com/themaphack"><img src="https://img.shields.io/badge/Get-Latest_updates-ff69b4?logo=patreon" alt="Get - Latest updates"></a>
@@ -34,10 +34,10 @@ With the ability to generate free keys endlessly and an open-source code for cus
 
 Our key advantage compared to others mod:
 
-* Free forever
+* **Free forever**
   - You can generate free key (unlimited) in our website.
   
-* Open source, Transparency & Modular
+* **Open source** Transparency & Modular
   - Feel free to use this source code as a template for your mod menu project
   - Transparency is guaranteed, allowing users to inspect the source code, ensuring there are no malicious components.
   - The modular design lets users extend the features of this mod to suit their specific needs.
