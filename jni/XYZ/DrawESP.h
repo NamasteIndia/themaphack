@@ -661,11 +661,11 @@ void NewDrawESP(ImDrawList *draw, float screenWidth, float screenHeight) {
         if (Config.ESP.Player.Round) {
             draw->AddCircleFilled(rootPosVec2, 10, IM_COL32(255, 255, 255, 255));
         }
-		
+		// default: rootPosVec2.y + 5
 		if (Config.ESP.Player.Distance) {
         	std::string strDistance = to_string(Distance) + " M";
             auto textSize = ImGui::CalcTextSize(strDistance.c_str(), 0, ((float) screenHeight / 39.0f));
-            draw->AddText(NULL, ((float) screenHeight / 39.0f), {rootPosVec2.x - (textSize.x / 2), rootPosVec2.y + 5}, IM_COL32(10, 255, 202, 255), strDistance.c_str());
+            draw->AddText(NULL, ((float) screenHeight / 39.0f), {rootPosVec2.x - (textSize.x / 2), rootPosVec2.y + 15}, IM_COL32(10, 255, 202, 255), strDistance.c_str());
         }
 
         if (Config.ESP.Player.CoolDown || Config.ESP.Player.CoolDown2) {
