@@ -87,9 +87,9 @@ $ git clone https://github.com/anggorodhanumurti/themaphack.git && cd themaphack
 $ ./compile.sh
 ```
 > [!NOTE]
-> Ensure you select the appropriate library based on your device's architecture. If you're not sure you can check your device architecture using [64bit checker](https://play.google.com/store/apps/details?id=com.danielpolish.a64bitchecker)
-- libs/arm64-v8a for 64bit
-- libs/armeabi-v7a for 32bit
+> Ensure you select the appropriate library based on your device's architecture. If you're not sure you can check your device architecture using [64bit checker](https://play.google.com/store/apps/details?id=com.danielpolish.a64bitchecker) and download our compiled mod so you dont need to build from source.
+- [libs/arm64-v8a](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.4-external-64bit/tmhv1.1.4-external-64bit.zip) for 64bit
+- [libs/armeabi-v7a](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.2-32bit/tmhv1.1.2-32bit.zip) for 32bit
 
 ### Installation for External version
 
@@ -111,12 +111,16 @@ _I assume you're using 64bit Android_
 
 There are 2 version of `Themaphack` is a Virtual and External
 
-* **Virtual** version using apk virtualization methode and obfuscated code to ensure full control between modmenu and game client make it **`more secure and stable (no lag/crash)`** as a result we dont open source the code at this version
+* **Virtual** version using apk virtualization methode and obfuscated code to ensure security between modmenu and game client make it **`more safest and stable (no lag/crash)`** 
+  - We dont open source the code at this version. 
+  - You cannot use in-game microphone but its ok you can use discord instead.
   - Download **[Latest TMH Virtual Version](https://github.com/anggorodhanumurti/themaphack/releases/download/v2.0-virtual(allstar-64bit)/tmhv2.0_virtual_allstar_64bit.zip)**
 
-* **External** version is the outcome of compiling source code from this project in a form of `.so files` which is injected into mlbb folder. No obfuscated code so you can customize its feature and function to suit your needs easily
-  - Download External Version **[tmhv1.1.4-external-64bit.zip](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.4-external-64bit/tmhv1.1.4-external-64bit.zip)**
+* **External** version is the outcome of compiling source code from this project in a form of `.so files` which is injected into mlbb folder. No obfuscated code so you can customize its feature and function to suit your needs easily **`but its easy to detect`**
+  - Support in-game microphone
   - Read INSTALL.txt inside tmhv1.1.4-external-64bit.zip for install instruction
+  - Download our compiled mod bellow so you dont need to build your self
+  - Download External Version **[tmhv1.1.4-external-64bit.zip](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.4-external-64bit/tmhv1.1.4-external-64bit.zip)**
 
 ## Usage
 ### Installation & how to get key
@@ -129,7 +133,7 @@ There are 2 version of `Themaphack` is a Virtual and External
 
 4. Makesure you have installed latest mlbb from playstore and downloaded all data 100%. Then add `mlbb` to `Nova Launcher` by Selecting `Mobile Legends` then click **`Clone`**. At this stage you've successfully installed modmenu but **dont open mlbb** before finishing the step bellow or your account will be banned for sure!
 
-5. You must have a key to acces modmenu within `Nova Launcher`. Get a key [here](https://vimeo.com/1095182829/b14412f5f5) after you got a key, just Copy the key! and save that key in your android note app you will need that for login to modmenu.
+5. You must have a key to acces modmenu within `Nova Launcher`. Get a key [here](https://vimeo.com/1095182829/b14412f5f5) use the key for login to modmenu later.
 
 6. TMH Virtual version is installed succesfully! but **your account is still not safe from banned**. So before you open mlbb game from `Nova Launcher` make sure you follow this [guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 
@@ -173,6 +177,8 @@ Our keygen server has limited resources so by limit duration it will minimize se
 I made it like that on purpose because features you mentioned above had high banned rate.
 
 Considering that TMH source code is not obfuscated, it will be so easy for antich**t system to detect.
+
+Unless you use [VIP version](https://www.patreon.com/c/themaphack/membership?) all features you mentioned above is unlocked with latest bypass to avoid detection. Even you got secret feature that i cant mention here
 </p>
 </details>
 
