@@ -21,8 +21,7 @@
   <a href="#key-advantage">Key Advantage</a> •
   <a href="#main-features">Main Features</a> •
   <a href="#build">Build</a> •
-  <a href="#download">Download</a> •
-  <a href="#usage">Usage</a> •
+  <a href="#quickstart">Quickstart</a> •
   <a href="#faq">FAQ</a>
 </p>
 
@@ -107,7 +106,7 @@ _I assume you're using 64bit Android_
 > [!WARNING]
 > Your account is still not safe from banned. So before you open mlbb game make sure you follow [this guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 
-## Download
+## Quickstart
 
 There are 2 version of `Themaphack` is a Virtual and External
 
@@ -122,7 +121,6 @@ There are 2 version of `Themaphack` is a Virtual and External
   - Download our compiled mod bellow so you dont need to build your self
   - Download External Version **[tmhv1.1.4-external-64bit.zip](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.4-external-64bit/tmhv1.1.4-external-64bit.zip)**
 
-## Usage
 ### Installation & how to get key
 
 1. We recommend you to use [`TMH virtual`](https://github.com/anggorodhanumurti/themaphack/releases/tag/v2.0-virtual(allstar-64bit)) because it is safer and more stable than the external version. Here a [direct download](https://github.com/anggorodhanumurti/themaphack/releases/download/v2.0-virtual(allstar-64bit)/tmhv2.0_virtual_allstar_64bit.zip) link
