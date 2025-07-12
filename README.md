@@ -20,8 +20,8 @@
 <p align="center">
   <a href="#key-advantage">Key Advantage</a> •
   <a href="#main-features">Main Features</a> •
-  <a href="#build">Build</a> •
   <a href="#quickstart">Quickstart</a> •
+  <a href="#build">Build</a> •
   <a href="#faq">FAQ</a>
 </p>
 
@@ -53,6 +53,41 @@ Our key advantage compared to others mod:
   
 * Complete ESP
   - Tracks enemy health, outlines, monster hero icons, and more, enhancing situational awareness in gameplay.
+
+
+## Quickstart
+
+There are 2 version of `Themaphack` is a Virtual and External
+
+* **Virtual** version using apk virtualization methode and obfuscated code to ensure security between modmenu and game client make it **`more safest and stable (no lag/crash)`** 
+  - We dont open source the code at this version. 
+  - You cannot use in-game microphone but its ok you can use discord instead.
+  - Download **[Latest TMH Virtual Version](https://github.com/anggorodhanumurti/themaphack/releases/download/v2.0-virtual(allstar-64bit)/tmhv2.0_virtual_allstar_64bit.zip)**
+
+* **External** version is the outcome of compiling source code from this project in a form of `.so files` which is injected into mlbb folder. No obfuscated code so you can customize its feature and function to suit your needs easily **`but its easy to detect`**
+  - Support in-game microphone
+  - Read INSTALL.txt inside tmhv1.1.4-external-64bit.zip for install instruction
+  - Download our compiled mod bellow so you dont need to build your self
+  - Download External Version **[tmhv1.1.4-external-64bit.zip](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.4-external-64bit/tmhv1.1.4-external-64bit.zip)**
+
+### Installation & how to get key
+
+1. We recommend you to use [`TMH virtual`](https://github.com/anggorodhanumurti/themaphack/releases/tag/v2.0-virtual(allstar-64bit)) because it is safer and more stable than the external version. Here a [direct download](https://github.com/anggorodhanumurti/themaphack/releases/download/v2.0-virtual(allstar-64bit)/tmhv2.0_virtual_allstar_64bit.zip) link
+
+2. Extract **`tmhv2.0_virtual_allstar_64bit.zip`** and install **`NovaLauncher_patch_allstar.apk`**
+
+3. Open `Nova Launcher` click `Start` allow permission for `Nova Launcher` to manage all files
+
+4. Makesure you have installed latest mlbb from playstore and downloaded all data 100%. Then add `mlbb` to `Nova Launcher` by Selecting `Mobile Legends` then click **`Clone`**. At this stage you've successfully installed modmenu but **dont open mlbb** before finishing the step bellow or your account will be banned for sure!
+
+5. You must have a key to acces modmenu within `Nova Launcher`. Get a key [here](https://vimeo.com/1095182829/b14412f5f5) use the key for login to modmenu later.
+
+6. TMH Virtual version is installed succesfully! but **your account is still not safe from banned**. So before you open mlbb game from `Nova Launcher` make sure you follow this [guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+
+7. After you complete step 6, now you're safe to play MLBB, open `Nova Launcher` start Mobile Legends, then when modmenu appear paste your `Key`, and click `Login` 
+
+> enjoy and outplay your enemy ;)
+
 
 ## Build
 
@@ -105,39 +140,6 @@ _I assume you're using 64bit Android_
 
 > [!WARNING]
 > Your account is still not safe from banned. So before you open mlbb game make sure you follow [this guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
-
-## Quickstart
-
-There are 2 version of `Themaphack` is a Virtual and External
-
-* **Virtual** version using apk virtualization methode and obfuscated code to ensure security between modmenu and game client make it **`more safest and stable (no lag/crash)`** 
-  - We dont open source the code at this version. 
-  - You cannot use in-game microphone but its ok you can use discord instead.
-  - Download **[Latest TMH Virtual Version](https://github.com/anggorodhanumurti/themaphack/releases/download/v2.0-virtual(allstar-64bit)/tmhv2.0_virtual_allstar_64bit.zip)**
-
-* **External** version is the outcome of compiling source code from this project in a form of `.so files` which is injected into mlbb folder. No obfuscated code so you can customize its feature and function to suit your needs easily **`but its easy to detect`**
-  - Support in-game microphone
-  - Read INSTALL.txt inside tmhv1.1.4-external-64bit.zip for install instruction
-  - Download our compiled mod bellow so you dont need to build your self
-  - Download External Version **[tmhv1.1.4-external-64bit.zip](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.4-external-64bit/tmhv1.1.4-external-64bit.zip)**
-
-### Installation & how to get key
-
-1. We recommend you to use [`TMH virtual`](https://github.com/anggorodhanumurti/themaphack/releases/tag/v2.0-virtual(allstar-64bit)) because it is safer and more stable than the external version. Here a [direct download](https://github.com/anggorodhanumurti/themaphack/releases/download/v2.0-virtual(allstar-64bit)/tmhv2.0_virtual_allstar_64bit.zip) link
-
-2. Extract **`tmhv2.0_virtual_allstar_64bit.zip`** and install **`NovaLauncher_patch_allstar.apk`**
-
-3. Open `Nova Launcher` click `Start` allow permission for `Nova Launcher` to manage all files
-
-4. Makesure you have installed latest mlbb from playstore and downloaded all data 100%. Then add `mlbb` to `Nova Launcher` by Selecting `Mobile Legends` then click **`Clone`**. At this stage you've successfully installed modmenu but **dont open mlbb** before finishing the step bellow or your account will be banned for sure!
-
-5. You must have a key to acces modmenu within `Nova Launcher`. Get a key [here](https://vimeo.com/1095182829/b14412f5f5) use the key for login to modmenu later.
-
-6. TMH Virtual version is installed succesfully! but **your account is still not safe from banned**. So before you open mlbb game from `Nova Launcher` make sure you follow this [guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
-
-7. After you complete step 6, now you're safe to play MLBB, open `Nova Launcher` start Mobile Legends, then when modmenu appear paste your `Key`, and click `Login` 
-
-> enjoy and outplay your enemy ;)
 
 ## FAQ
 
