@@ -59,87 +59,20 @@ Our key advantage compared to others mod:
 
 There are 2 version of `Themaphack` is a Virtual and External
 
-* **Virtual** version using apk virtualization methode and obfuscated code to ensure security between modmenu and game client make it **`more safest and stable (no lag/crash)`** 
-  - We dont open source the code at this version. 
-  - You cannot use in-game microphone but its ok you can use discord instead.
-  - Download **[Latest TMH Virtual Version](https://github.com/anggorodhanumurti/themaphack/releases/download/v2.0-virtual(allstar-64bit)/tmhv2.0_virtual_allstar_64bit.zip)**
+* **Virtual** version using apk virtualization methode and obfuscated code to ensure security between modmenu and game client make it **`more safest and stable (no lag/crash)`**
+> <a href="https://themaphack.com/quickstart/"><img src="https://img.shields.io/static/v1?label=Quickstart&message=Virtual+Version&color=2ea44f&style=for-the-badge&logo=gitbook" alt="Quickstart - Virtual Version"></a>
 
 * **External** version is the outcome of compiling source code from this project in a form of `.so files` which is injected into mlbb folder. No obfuscated code so you can customize its feature and function to suit your needs easily **`but its easy to detect`**
-  - Support in-game microphone
-  - Read INSTALL.txt inside tmhv1.1.4-external-64bit.zip for install instruction
-  - Download our compiled mod bellow so you dont need to build your self
-  - Download External Version **[tmhv1.1.4-external-64bit.zip](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.4-external-64bit/tmhv1.1.4-external-64bit.zip)**
-
-### Installation & how to get key
-
-1. We recommend you to use [`TMH virtual`](https://github.com/anggorodhanumurti/themaphack/releases/tag/v2.0-virtual(allstar-64bit)) because it is safer and more stable than the external version. Here a [direct download](https://github.com/anggorodhanumurti/themaphack/releases/download/v2.0-virtual(allstar-64bit)/tmhv2.0_virtual_allstar_64bit.zip) link
-
-2. Extract **`tmhv2.0_virtual_allstar_64bit.zip`** and install **`NovaLauncher_patch_allstar.apk`**
-
-3. Open `Nova Launcher` click `Start` allow permission for `Nova Launcher` to manage all files
-
-4. Makesure you have installed latest mlbb from playstore and downloaded all data 100%. Then add `mlbb` to `Nova Launcher` by Selecting `Mobile Legends` then click **`Clone`**. At this stage you've successfully installed modmenu but **dont open mlbb** before finishing the step bellow or your account will be banned for sure!
-
-5. You must have a key to acces modmenu within `Nova Launcher`. Get a key [here](https://vimeo.com/1095182829/b14412f5f5) use the key for login to modmenu later.
-
-6. TMH Virtual version is installed succesfully! but **your account is still not safe from banned**. So before you open mlbb game from `Nova Launcher` make sure you follow this [guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
-
-7. After you complete step 6, now you're safe to play MLBB, open `Nova Launcher` start Mobile Legends, then when modmenu appear paste your `Key`, and click `Login` 
-
-> enjoy and outplay your enemy ;)
-
+> <a href="https://themaphack.com/quickstart/#external-version"><img src="https://img.shields.io/static/v1?label=Quickstart&message=External+Version&color=orange&style=for-the-badge&logo=gitbook" alt="Quickstart - External Version"></a>
 
 ## Build
 
 _An extensive tutorial is available for building Themaphack using ndk-build within the Termux terminal emulator. Detailed steps are provided:_
 
-### Prepare
-We have set up custom [ndk-build](https://github.com/anggorodhanumurti/themaphack/releases/tag/ndk_aide_latest) to work on this project or you can download Android ndk at its [official website](https://developer.android.com/ndk/downloads)
-- Download our custom [ndk-build](https://github.com/anggorodhanumurti/themaphack/releases/tag/ndk_aide_latest) tools
-- Install [Termux](https://termux.dev/en/) on your Android devices or just use your `terminal/cmd` if you build on PC
-
-```Termux
-# Update repository Termux
-$ pkg update && pkg upgrade -y
-
-# Install required tools
-$ pkg install git openssh wget
-
-# Change to Termux $HOME directory
-$ cd ~/
-
-# Download ndk-build system
-$ wget https://github.com/anggorodhanumurti/themaphack/releases/download/ndk_aide_latest/ndk-build.tar.gz
-
-# Extract ndk-build
-$ tar -xvzf ndk-build.tar.gz
-
-# Clone themaphack repository
-$ git clone https://github.com/anggorodhanumurti/themaphack.git && cd themaphack
-
-# Run compile script
-$ ./compile.sh
-```
-> [!NOTE]
-> Ensure you select the appropriate library based on your device's architecture. If you're not sure you can check your device architecture using [64bit checker](https://play.google.com/store/apps/details?id=com.danielpolish.a64bitchecker) and download our compiled mod so you dont need to build from source.
-- [libs/arm64-v8a](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.4-external-64bit/tmhv1.1.4-external-64bit.zip) for 64bit
-- [libs/armeabi-v7a](https://github.com/anggorodhanumurti/themaphack/releases/download/v1.1.2-32bit/tmhv1.1.2-32bit.zip) for 32bit
-
-### Installation for External version
-
-_I assume you're using 64bit Android_
-
-1. After `compile.sh` script runs succesfully, lib file will generated on your working directory `libs/arm64-v8a` the filename is `libAkSoundEngine2.so`
-
-2. Open [Zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver) Copy that `libAkSoundEngine2.so` to mlbb folder:
-`Android/data/com.mobile.legends/files/dragon2017/assets/comlibs/arm64-v8a`
-
-3. Rename original lib from mlbb **```libAkSoundEngine.bytes```** to **```libTMH.bytes```**
-
-4. Rename **`libAkSoundEngine2.so`** to **`libAkSoundEngine.bytes`** done TMH is installed succesfully! but before open MLBB you must have a key for login to `TMH` modmenu. Generate key [here](https://t0pgamemurah.xyz/freeKey)
+<a href="https://themaphack.com/build"><img src="https://img.shields.io/static/v1?label=Build&message=from+source&color=black&style=for-the-badge&logo=cplusplus" alt="Build - from source"></a>
 
 > [!WARNING]
-> Your account is still not safe from banned. So before you open mlbb game make sure you follow [this guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+> Your account is still not safe from banned. So before you open mlbb game make sure you follow [this guide](https://docs.google.com/forms/d/e/1FAIpQLSc9z_tA6EC6ypZM4oP4Jfc-gqQXQlyVbsMalOlqVTeBttmrYQ/viewform)
 
 ## FAQ
 
@@ -155,14 +88,14 @@ Why 98% its because the rest 2 % is depend on your playstyle and report from oth
 
 Playstyle means your behavior when using mod "dont make it too obvious" it will lead you to report by others player.
 
-As long as you follow [this guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) consistently your account will be safe.
+As long as you follow [this guide](https://docs.google.com/forms/d/e/1FAIpQLSc9z_tA6EC6ypZM4oP4Jfc-gqQXQlyVbsMalOlqVTeBttmrYQ/viewform) consistently your account will be safe.
 </p>
 </details>
 
 **<details><summary>2. Why not share bypass guide in public?</summary>**
 <p>
 Offcourse due to avoid m00nt0n detection.
-The less people knows is better, so keep this <a href="https://www.patreon.com/checkout/themaphack?rid=26019842">valuable </a> info just for yourself
+The less people knows is better, so keep this <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9z_tA6EC6ypZM4oP4Jfc-gqQXQlyVbsMalOlqVTeBttmrYQ/viewform">valuable </a> info just for yourself
 </p>
 </details>
 
@@ -178,7 +111,7 @@ I made it like that on purpose because features you mentioned above had high ban
 
 Considering that TMH source code is not obfuscated, it will be so easy for antich**t system to detect.
 
-Unless you use [VIP version](https://www.patreon.com/c/themaphack/membership?) all features you mentioned above is unlocked with latest bypass to avoid detection. Even you got secret feature that i cant mention here
+Unless you use [VIP version](https://themaphack.com/getvip) all features you mentioned above is unlocked with latest bypass to avoid detection. Even you got secret feature that i cant mention here
 </p>
 </details>
 
