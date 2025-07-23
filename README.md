@@ -38,11 +38,11 @@ Our key advantage compared to others mod:
   
 * **Open source** Transparency & Modular
   - Feel free to use this source code as a template for your mod menu project
-  - Transparency is guaranteed, allowing users to inspect the source code, ensuring there are no malicious components.
-  - The modular design lets users extend the features of this mod to suit their specific needs.
+  - **Transparency** is guaranteed, allowing users to inspect the source code, ensuring there are no malicious components.
+  - The **modular** design lets users extend the features of this mod to suit their specific needs.
 
 * **Account Safety**
-  -  To mitigate the risk of bans, a [special guide](https://www.patreon.com/posts/guide-how-to-not-130259867?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) is available to VIP users aimed at avoiding detection.
+  -  To mitigate the risk of bans, a [special guide](https://docs.google.com/forms/d/e/1FAIpQLSc9z_tA6EC6ypZM4oP4Jfc-gqQXQlyVbsMalOlqVTeBttmrYQ/viewform) is available to VIP users aimed at avoiding detection.
 
 ## Main Features
 
