@@ -76,50 +76,8 @@ _An extensive tutorial is available for building Themaphack using ndk-build with
 
 ## FAQ
 
-> <details><summary> Click this text to get Answered?</summary>
-> Answered
-</details>
+<a href="https://themaphack.com/faq/"><img src="https://img.shields.io/static/v1?label=Frequently&message=Ask+Question&color=informational&style=for-the-badge&logo=livechat&logoColor=white" alt="Frequently - Ask Question"></a>
 
-**<details><summary>1. is it safe?</summary>**
-<p>
-I can not guarantee you that this mod is 100% safe from being banned, but i can minimize the banned risk up to 98% as long as you follow my guidance
-
-Why 98% its because the rest 2 % is depend on your playstyle and report from other player
-
-Playstyle means your behavior when using mod "dont make it too obvious" it will lead you to report by others player.
-
-As long as you follow [this guide](https://docs.google.com/forms/d/e/1FAIpQLSc9z_tA6EC6ypZM4oP4Jfc-gqQXQlyVbsMalOlqVTeBttmrYQ/viewform) consistently your account will be safe.
-</p>
-</details>
-
-**<details><summary>2. Why not share bypass guide in public?</summary>**
-<p>
-Offcourse due to avoid m00nt0n detection.
-The less people knows is better, so keep this <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9z_tA6EC6ypZM4oP4Jfc-gqQXQlyVbsMalOlqVTeBttmrYQ/viewform">valuable </a> info just for yourself
-</p>
-</details>
-
-**<details><summary>3. Why key duration is only for 24h ?</summary>**
-<p>
-Our keygen server has limited resources so by limit duration it will minimize server load
-</p>
-</details>
-
-**<details><summary>4. Why only maphack and ESP, Where the other features (room info, auto retri, enemy cooldown, auto combo heroes, etc) ?</summary>**
-<p>
-I made it like that on purpose because features you mentioned above had high banned rate.
-
-Considering that TMH source code is not obfuscated, it will be so easy for antich**t system to detect.
-
-Unless you use [VIP version](https://themaphack.com/getvip) all features you mentioned above is unlocked with latest bypass to avoid detection. Even you got secret feature that i cant mention here
-</p>
-</details>
-
-**<details><summary>5. Can i have web panel source code that you used in your keygen web?</summary>**
-<p>
-Absolutely yes, <a href="https://www.patreon.com/posts/panel-source-php-134150729">Download here</a>
-</p>
-</details>
 
 > [!NOTE]
 > Open [issue](https://github.com/anggorodhanumurti/themaphack/issues) for feature requests, feedback and troubleshooting
