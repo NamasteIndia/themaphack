@@ -60,7 +60,7 @@ Our key advantage compared to others mod:
 There are 2 version of `Themaphack` is a Virtual and External
 
 * **Virtual** version using apk virtualization methode and obfuscated code to ensure security between modmenu and game client make it **`more safest and stable (no lag/crash)`**
-> <a href="https://themaphack.com/quickstart/"><img src="https://img.shields.io/static/v1?label=Quickstart&message=Virtual+Version&color=2ea44f&style=for-the-badge&logo=gitbook" alt="Quickstart - Virtual Version"></a>
+> <a href="https://themaphack.com/getvip/#freetrial"><img src="https://img.shields.io/static/v1?label=Quickstart&message=Virtual+Version&color=2ea44f&style=for-the-badge&logo=gitbook" alt="Quickstart - Virtual Version"></a>
 
 * **External** version is the outcome of compiling source code from this project in a form of `.so files` which is injected into mlbb folder. No obfuscated code so you can customize its feature and function to suit your needs easily **`but its easy to detect`**
 > <a href="https://themaphack.com/quickstart/#external-version"><img src="https://img.shields.io/static/v1?label=Quickstart&message=External+Version&color=orange&style=for-the-badge&logo=gitbook" alt="Quickstart - External Version"></a>
