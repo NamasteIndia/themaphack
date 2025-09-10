@@ -9,7 +9,7 @@ std::string title, version;
 std::string UUID;
 
 static std::string slotZ = "";
-static std::string inVip = "";
+static std::string inVip = "true";
 static std::string autoskillsZ = "";
 static std::string expired = "";
 static std::string EXP = "LOGIN FIRST";
@@ -21,7 +21,7 @@ static std::string battleData = "";
 static std::string clientManager = "";
 
 std::string g_Token, g_Auth;
-bool bValid = false;
+bool bValid = true;
 
 bool bInitDone;
 
