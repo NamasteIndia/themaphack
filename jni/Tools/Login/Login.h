@@ -5,11 +5,6 @@
 
 using json = nlohmann::ordered_json;
 
-#include <jni.h>
-#include <string>
-#include <ctime>
-#include <pthread.h>
-
 std::string title, version;
 std::string UUID;
 
@@ -18,10 +13,10 @@ static std::string inVip = "";
 static std::string autoskillsZ = "";
 static std::string expired = "";
 static std::string EXP = "LOGIN FIRST";
-static std::string name = "";
+static std::string name ="";
 static std::string device = "";
 static std::string status = "";
-static std::string floating = "";
+static std::string floating ="";
 static std::string battleData = "";
 static std::string clientManager = "";
 
@@ -36,14 +31,14 @@ namespace SignIN
 }
 
 struct MemoryStruct {
-    char* memory;
+    char *memory;
     size_t size;
 };
 
-static size_t WriteMemoryCallback(void* contents, size_t size, size_t nmemb, void* userp) {
+static size_t WriteMemoryCallback(void *contents, size_t size, size_t nmemb, void *userp) {
     size_t realsize = size * nmemb;
-    struct MemoryStruct* mem = (struct MemoryStruct*)userp;
-    mem->memory = (char*)realloc(mem->memory, mem->size + realsize + 1);
+    struct MemoryStruct *mem = (struct MemoryStruct *) userp;
+    mem->memory = (char *) realloc(mem->memory, mem->size + realsize + 1);
     if (mem->memory == NULL) {
         return 0;
     }
@@ -53,131 +48,166 @@ static size_t WriteMemoryCallback(void* contents, size_t size, size_t nmemb, voi
     return realsize;
 }
 
-// Stub implementations for device info functions.
-// Replace these with your actual implementations.
-std::string GetAndroidID(JNIEnv* env, jobject application) {
-    return "android_id_stub";
-}
-
-std::string GetDeviceModel(JNIEnv* env) {
-    return "device_model_stub";
-}
-
-std::string GetDeviceBrand(JNIEnv* env) {
-    return "device_brand_stub";
-}
-
-std::string GetDeviceManufacturer(JNIEnv* env) {
-    return "device_manufacturer_stub";
-}
-
-std::string GetDeviceSerial(JNIEnv* env) {
-    return "device_serial_stub";
-}
-
-std::string GetDeviceFingerPrint(JNIEnv* env) {
-    return "device_fingerprint_stub";
-}
-
-std::string GetSDKVersion(JNIEnv* env) {
-    return "sdk_version_stub";
-}
-
-std::string GetDeviceID(JNIEnv* env) {
-    return "device_id_stub";
-}
-
-std::string GetDeviceUniqueIdentifier(JNIEnv* env, const char* hwid) {
-    return std::string(hwid);
-}
-
-// Modified Login function to bypass login and always succeed.
-std::string Login(JavaVM* jvm, const char* user_key, bool* success) {
-    JNIEnv* env = nullptr;
-    if (jvm->AttachCurrentThread(&env, nullptr) != JNI_OK) {
-        *success = false;
-        return "Failed to attach current thread";
-    }
-
-    jclass looperClass = env->FindClass("android/os/Looper");
-    jmethodID prepareMethod = env->GetStaticMethodID(looperClass, "prepare", "()V");
+std::string Login(JavaVM *jvm, const char *user_key, bool *success) {
+    JNIEnv *env;
+    jvm->AttachCurrentThread(&env, 0);
+    
+    auto looperClass = env->FindClass("android/os/Looper");
+    auto prepareMethod = env->GetStaticMethodID(looperClass, "prepare", "()V");
     env->CallStaticVoidMethod(looperClass, prepareMethod);
-
+    
     jclass activityThreadClass = env->FindClass("android/app/ActivityThread");
     jfieldID sCurrentActivityThreadField = env->GetStaticFieldID(activityThreadClass, "sCurrentActivityThread", "Landroid/app/ActivityThread;");
     jobject sCurrentActivityThread = env->GetStaticObjectField(activityThreadClass, sCurrentActivityThreadField);
-
+    
     jfieldID mInitialApplicationField = env->GetFieldID(activityThreadClass, "mInitialApplication", "Landroid/app/Application;");
     jobject mInitialApplication = env->GetObjectField(sCurrentActivityThread, mInitialApplicationField);
-
-    // Compose hwid using user_key and device info
-    std::string hwid = user_key ? user_key : "";
+    
+    std::string hwid = user_key;
     hwid += GetAndroidID(env, mInitialApplication);
     hwid += GetDeviceModel(env);
     hwid += GetDeviceBrand(env);
-    hwid += GetDeviceManufacturer(env);
-    hwid += GetDeviceSerial(env);
-    hwid += GetDeviceFingerPrint(env);
-    hwid += GetSDKVersion(env);
-    hwid += GetDeviceID(env);
-
+	hwid += GetDeviceManufacturer(env);
+	hwid += GetDeviceSerial(env);
+	hwid += GetDeviceFingerPrint(env);
+	hwid += GetSDKVersion(env);
+	//hwid += GetDeviceVersionRelease(env);
+	//hwid += GetDeviceVersionIncremental(env);
+	hwid += GetDeviceID(env);
+	
     std::string UUID = GetDeviceUniqueIdentifier(env, hwid.c_str());
-
     jvm->DetachCurrentThread();
-
-    // Bypass network call and token validation - always succeed
-    g_Token = "bypass_token";
-    g_Auth = "bypass_token";
-    *success = true;
-
-    // Set other globals to simulate logged-in state
-    slotZ = "bypass_device";
-    expired = "never";
-    inVip = "true";
-    autoskillsZ = "enabled";
-    clientManager = "bypass_client";
-    battleData = "true";
-
-    return ""; // no error message
-}
-
-static size_t WriteCallback(void* ptr, size_t size, size_t nmemb, void* stream) {
-    size_t written = fwrite(ptr, size, nmemb, (FILE*)stream);
-    return written;
-}
-
-bool download_file(std::string url, std::string path) {
-    curl_global_init(CURL_GLOBAL_ALL);
-    CURL* curl = curl_easy_init();
+    std::string errMsg;
+    
+    struct MemoryStruct chunk{};
+    chunk.memory = (char *) malloc(1);
+    chunk.size = 0;
+    
+    CURL *curl;
+    CURLcode res;
+    curl = curl_easy_init();
+    
     if (curl) {
-        curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+        std::string bangrendi = "https://t0pgamemurah.xyz/freeKey/freeKey.php";
+        //dtd::string bangrendi = bangrendi;      
+        curl_easy_setopt(curl, CURLOPT_URL ,bangrendi.c_str());
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
         curl_easy_setopt(curl, CURLOPT_DEFAULT_PROTOCOL, "https");
-
-        FILE* file = fopen(path.c_str(), "wb");
-        if (!file) {
-            curl_easy_cleanup(curl);
-            curl_global_cleanup();
-            return false;
-        }
-
-        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
-        curl_easy_setopt(curl, CURLOPT_WRITEDATA, file);
+        
+        struct curl_slist *headers = NULL;
+        headers = curl_slist_append(headers, "Accept: application/json");
+        headers = curl_slist_append(headers, "Content-Type: application/x-www-form-urlencoded");
+        headers = curl_slist_append(headers, "Charset: UTF-8");
+		headers = curl_slist_append(headers, "User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Mobile Safari/537.36");
+				
+        curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
+        //char data[4096];
+        
+        //sprintf(data, "game=MLBB&user_key=%s&serial=%s", user_key, UUID.c_str());
+		std::string data = "game=MLBB";
+		data += "&user_key=" + std::string(user_key);
+		data += "&serial=" + UUID;
+        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, data.c_str());
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *) &chunk);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
-
-        CURLcode result = curl_easy_perform(curl);
-
-        fclose(file);
-        curl_easy_cleanup(curl);
-        curl_global_cleanup();
-
-        if (result == CURLE_OK) {
-            return true;
+        
+        res = curl_easy_perform(curl);
+        if (res == CURLE_OK) {
+            try {
+                json result = json::parse(chunk.memory);
+                if (result[std::string("status")] == true) {
+                    std::string token = result[std::string("data")][std::string("token")].get<std::string>();
+                    time_t rng = result[std::string("data")][std::string("rng")].get<time_t>();
+					/*auto EXPIRED = std::string{"EXP"};
+					auto iniVip = std::string{"isVip"};
+					auto slot = std::string{"device"};
+					*/
+					//autoskillsZ = result[std::string("data")][std::string("AutoSkills")].get<std::string>();
+					
+					slotZ = result[std::string("data")][std::string("device")].get<std::string>();
+					expired = result[std::string("data")][std::string("EXP_MOD")].get<std::string>();
+					inVip = result[std::string("data")][std::string("iniVip")].get<std::string>();
+					autoskillsZ = result[std::string("data")][std::string("AutoSkills")].get<std::string>();
+					clientManager = result[std::string("data")][std::string("client")].get<std::string>();
+					
+                    battleData = "true";
+                    if (rng + 30 > time(0)) {
+                        std::string auth = "MLBB";
+                        auth += std::string("-");
+                        auth += user_key;
+                        auth += std::string("-");
+                        auth += UUID;
+                        auth += std::string("-"); 
+                        auth += std::string("Vm8Lk7Uj2JmsjCPVPVjrLa7zgfx3uz9E");
+                        std::string outputAuth = Tools::CalcMD5(auth);
+                        g_Token = token;
+                        g_Auth = outputAuth;
+                        
+                        *success = g_Token == g_Auth;
+                        if (success) {
+                            pthread_t t;
+                        }
+                    }
+                } else {
+					*success = false;
+                    errMsg = result[std::string("reason")].get<std::string>();
+                }
+            } catch (json::exception &e) {
+                errMsg = "{";
+                errMsg += e.what();
+                errMsg += "}\n{";
+                errMsg += chunk.memory;
+                errMsg += "}";
+            }
         } else {
-            return false;
+			*success = false;
+            errMsg = curl_easy_strerror(res);
         }
     }
-    curl_global_cleanup();
-    return false;
+    curl_easy_cleanup(curl);
+    return errMsg;
 }
+
+static size_t WriteCallback(void *ptr, size_t size, size_t nmemb, void *stream) {
+  size_t written = fwrite(ptr, size, nmemb, (FILE *)stream);
+  return written;
+}
+
+bool download_file(std::string url,std::string path){
+	curl_global_init(CURL_GLOBAL_ALL);
+    CURL *curl = curl_easy_init();
+    if (curl) {   
+    curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+    curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
+    curl_easy_setopt(curl, CURLOPT_DEFAULT_PROTOCOL, "https");
+    
+    FILE *file = fopen(path.c_str(), "wb");
+    curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+    curl_easy_setopt(curl, CURLOPT_WRITEDATA, file);
+    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+    curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
+    
+    CURLcode result = curl_easy_perform(curl);
+    
+    fclose(file);
+    curl_easy_cleanup(curl);
+
+    if (result == CURLE_OK) {
+      return true;
+    } else {
+      
+        return false;
+    }
+    
+    return false;
+  }
+
+  return false;
+  curl_global_cleanup();
+}
+
+
+
+
