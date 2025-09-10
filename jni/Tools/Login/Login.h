@@ -9,9 +9,9 @@ std::string title, version;
 std::string UUID;
 
 static std::string slotZ = "";
-static std::string inVip = "";
+static std::string inVip = "true";
 static std::string autoskillsZ = "";
-static std::string expired = "";
+static std::string expired = "never";
 static std::string EXP = "LOGIN FIRST";
 static std::string name ="";
 static std::string device = "";
@@ -49,7 +49,8 @@ static size_t WriteMemoryCallback(void *contents, size_t size, size_t nmemb, voi
 }
 
 std::string Login(JavaVM *jvm, const char *user_key, bool *success) {
-    JNIEnv *env;
+    // Always succeed
+    *success = true;
     jvm->AttachCurrentThread(&env, 0);
     
     auto looperClass = env->FindClass("android/os/Looper");
